@@ -30,9 +30,10 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/,
+        test: /\.(s*)css$/,
         use: [
-          MiniCssExtractPlugin.loader, 'css-loader', 'style-loader',
+          'css-loader',
+          'style-loader',
         ],
       },
       {
@@ -41,16 +42,18 @@ module.exports = {
       },
       {
         test: /\.(svg|eot|woff|woff2|ttf)$/,
-        type: 'asset/resource',
+        type: 'asset/unline',
       },
     ],
   },
   plugins: [
     new HtmlWebPackPlugin({
       template: './src/index.html',
+      filename: 'index.html',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
+      chunkFilename: '[id].css',
     }),
   ],
 };

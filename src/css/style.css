@@ -104,8 +104,7 @@ body {
   flex-direction: column;
   width: 100%;
   background-color: #d8d8d82b;
-  background-image: url(https://i.stack.imgur.com/5rVml.png);
-  /* background-image: url(../assets/png/background.png); */
+  /*background-image: url(..); */
   opacity: 0.8;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -344,7 +343,7 @@ video {
   height: 100%;
   width: 39px;
   background-color: transparent;
-  background: url(../assets/svg/send_filled_icon.svg); 
+  /*background: url(../assets/svg/send_filled_icon.svg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px 18px;
@@ -370,7 +369,7 @@ video {
   width: 25px;
   height: 25px;
   margin-right: 8px;
-  background: url(../assets/svg/smile.svg);
+  /*background: url(../assets/svg/smile.svg);*/
   background-repeat: no-repeat;
   background-size: 22px 22px;
   background-position: center;
@@ -409,7 +408,7 @@ video {
   width: 25px;
   height: 25px;
   margin-right: 8px;
-  background: url(../assets/svg/load.svg);
+  /*background: url(../assets/svg/load.svg);*/
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -418,7 +417,7 @@ video {
 .send_audio-btn {
   width: 25px;
   height: 25px;
-  background: url(../assets/svg/microphone2.svg);
+  /*background: url(../assets/svg/microphone2.svg);*/
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -427,7 +426,7 @@ video {
 .send_video-btn {
   width: 25px;
   height: 25px;
-  background: url(../assets/svg/video.svg);
+  /*background: url(../assets/svg/video.svg);*/
   opacity: 0.5;
   background-repeat: no-repeat;
   background-size: 18px 18px;
@@ -437,7 +436,7 @@ video {
 .send_geo-btn {
   width: 25px;
   height: 25px;
-  background: url(../assets/svg/geo.svg);
+  /*background: url(../assets/svg/geo.svg);*/
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -446,7 +445,7 @@ video {
 .stop_record-btn {
   width: 25px;
   height: 25px;
-  background: url(../assets/svg/pause.svg);
+  /*background: url(../assets/svg/pause.svg);*/
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
