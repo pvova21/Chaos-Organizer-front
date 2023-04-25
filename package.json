@@ -1,0 +1,55 @@
+{
+  "name": "chaos-organizer-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "coverage": "jest --coverage",
+    "test": "jest",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvova21/Chaos-Organizer-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvova21/Chaos-Organizer-front/issues"
+  },
+  "homepage": "https://github.com/pvova21/Chaos-Organizer-front#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "autoprefixer": "^10.4.14",
+    "babel-jest": "^29.5.0",
+    "babel-loader": "^9.1.2",
+    "bootstrap": "^5.2.3",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "http-server": "^14.1.1",
+    "jest": "^29.5.0",
+    "live-server": "^1.2.2",
+    "mini-css-extract-plugin": "^2.7.5",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "core-js": "^3.30.1"
+  }
+}
