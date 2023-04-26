@@ -343,7 +343,7 @@ video {
   height: 100%;
   width: 39px;
   background-color: transparent;
-  /*background: url(../assets/svg/send_filled_icon.svg); */
+  background: url(../assets/png/icons8-email-send-96.png); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: 18px 18px;
@@ -369,7 +369,7 @@ video {
   width: 25px;
   height: 25px;
   margin-right: 8px;
-  /*background: url(../assets/svg/smile.svg);*/
+  background: url(../assets/png/icons8-smile-64.png);
   background-repeat: no-repeat;
   background-size: 22px 22px;
   background-position: center;
@@ -408,7 +408,7 @@ video {
   width: 25px;
   height: 25px;
   margin-right: 8px;
-  /*background: url(../assets/svg/load.svg);*/
+  background: url(../assets/png/icons8-downloads-100.png);
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -417,7 +417,7 @@ video {
 .send_audio-btn {
   width: 25px;
   height: 25px;
-  /*background: url(../assets/svg/microphone2.svg);*/
+  background: url(../assets/png/icons8-microphone-96.png);
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -426,7 +426,7 @@ video {
 .send_video-btn {
   width: 25px;
   height: 25px;
-  /*background: url(../assets/svg/video.svg);*/
+  background: url(../assets/png/icons8-documentary-90.png);
   opacity: 0.5;
   background-repeat: no-repeat;
   background-size: 18px 18px;
@@ -436,7 +436,7 @@ video {
 .send_geo-btn {
   width: 25px;
   height: 25px;
-  /*background: url(../assets/svg/geo.svg);*/
+  background: url(../assets/png/icons8-geo-67.png);
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -445,7 +445,7 @@ video {
 .stop_record-btn {
   width: 25px;
   height: 25px;
-  /*background: url(../assets/svg/pause.svg);*/
+  background: url(../assets/png/icons8-pause-button-100.png);
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
