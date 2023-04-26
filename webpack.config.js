@@ -30,10 +30,9 @@ module.exports = {
         ],
       },
       {
-        test: /\.(s*)css$/,
+        test: /\.css$/,
         use: [
-          'css-loader',
-          'style-loader',
+          MiniCssExtractPlugin.loader, 'css-loader', /*'style-loader',*/
         ],
       },
       {
@@ -42,7 +41,7 @@ module.exports = {
       },
       {
         test: /\.(svg|eot|woff|woff2|ttf)$/,
-        type: 'asset/unline',
+        type: 'asset/inline',
       },
     ],
   },
