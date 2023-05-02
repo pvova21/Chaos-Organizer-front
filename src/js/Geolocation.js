@@ -16,25 +16,30 @@ export default class Geolocation {
     this.clickEventHandler.push(callback);
   }
 
-  /*getCurrentGeolocation() {
+  getCurrentGeolocation() {
     if (!navigator.geolocation) return;
     return new Promise((resolve, reject) => {
       navigator.geolocation.getCurrentPosition(resolve, reject);
     });
   }
-  /*getCurrentGeolocation() {
-    if (!navigator.geolocation) return;
-    return new Promise((resolve, reject) => {
-      navigator.geolocation.getCurrentPosition().then(() => {
-        navigator.geolocation.getCurrentPosition({ timeout: 10000 }).then(location => {
-          resolve(location);
-        }).catch(error => {
-          reject(error);
-        });
+  /*const getCurrentGeolocation = () => {
+    if (window.navigator.geolocation) {
+      return new Promise((resolve, reject) => {
+        window.navigator.geolocation.getCurrentPosition(resolve, reject);
       });
+    } else {
+      alert("Browser does not support");
+    }
+  };
+  const geolocation = async () => {
+    return await this.getCurrentGeolocation()
+    .then((res) => {
+      return mycoords(res);
+    })
+    .catch((res) => {
+      mycoords(err);
     });
-  }*/
-
+  };*/
   async clickHandler() {
     try {
       const { coords } = await this.getCurrentGeolocation();
