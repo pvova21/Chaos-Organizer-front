@@ -16,12 +16,24 @@ export default class Geolocation {
     this.clickEventHandler.push(callback);
   }
 
-  getCurrentGeolocation() {
+  /*getCurrentGeolocation() {
     if (!navigator.geolocation) return;
     return new Promise((resolve, reject) => {
       navigator.geolocation.getCurrentPosition(resolve, reject);
     });
   }
+  /*getCurrentGeolocation() {
+    if (!navigator.geolocation) return;
+    return new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition().then(() => {
+        navigator.geolocation.getCurrentPosition({ timeout: 10000 }).then(location => {
+          resolve(location);
+        }).catch(error => {
+          reject(error);
+        });
+      });
+    });
+  }*/
 
   async clickHandler() {
     try {
